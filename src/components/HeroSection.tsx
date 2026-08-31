@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
 import { useReducedMotion } from '../hooks/useReducedMotion';
+import profileImg from '../assets/profile.jpg';
 
 /**
  * HeroSection — Full-viewport introductory section with animated name,
@@ -39,7 +40,7 @@ export function HeroSection() {
           </div>
         ) : (
           <img
-            src="/IMG-20231226-WA0006.jpg"
+            src={profileImg}
             alt="Umar Javed"
             className="w-40 h-40 md:w-48 md:h-48 min-w-[150px] min-h-[150px] rounded-full object-cover border-2 border-white/10"
             onError={() => setImageError(true)}

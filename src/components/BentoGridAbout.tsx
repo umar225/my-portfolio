@@ -1,7 +1,6 @@
 import { BentoCard } from './BentoCard';
 import { CopyEmailButton } from './CopyEmailButton';
 import { AnimatedSection } from './ui/AnimatedSection';
-import profileImg from '../assets/profile.jpg';
 
 const TECH_STACK = [
   'Playwright',
@@ -30,38 +29,19 @@ export function BentoGridAbout() {
       </AnimatedSection>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {/* Card 1: Bio + Profile Image — spans 2 cols on desktop */}
+        {/* Card 1: Bio — spans 2 cols on desktop */}
         <AnimatedSection delay={0}>
           <BentoCard colSpan="md:col-span-2">
-            <div className="flex flex-col md:flex-row items-center gap-6">
-              <img
-                src={profileImg}
-                alt="Umar Javed profile"
-                className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-2 border-white/20 flex-shrink-0"
-                onError={(e) => {
-                  const target = e.currentTarget;
-                  target.style.display = 'none';
-                  const placeholder = target.nextElementSibling as HTMLElement | null;
-                  if (placeholder) placeholder.style.display = 'flex';
-                }}
-              />
-              <div
-                className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-gray-700 to-gray-900 items-center justify-center flex-shrink-0 hidden"
-                aria-hidden="true"
-              >
-                <span className="text-2xl font-bold text-white/60">UJ</span>
-              </div>
-              <div className="text-center md:text-left">
-                <h3 className="text-xl font-semibold text-white mb-3">
-                  Umar Javed
-                </h3>
-                <p className="text-white/70 text-base leading-relaxed">
-                  SDET with 8+ years of experience designing scalable automation
-                  frameworks using Playwright and TypeScript. Passionate about
-                  building reliable test infrastructure that empowers teams to
-                  ship with confidence.
-                </p>
-              </div>
+            <div className="flex flex-col justify-center h-full">
+              <h3 className="text-xl font-semibold text-white mb-3">
+                Umar Javed
+              </h3>
+              <p className="text-white/70 text-base leading-relaxed">
+                SDET with 8+ years of experience designing scalable automation
+                frameworks using Playwright and TypeScript. Passionate about
+                building reliable test infrastructure that empowers teams to
+                ship with confidence.
+              </p>
             </div>
           </BentoCard>
         </AnimatedSection>

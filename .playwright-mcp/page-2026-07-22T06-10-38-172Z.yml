@@ -1,0 +1,265 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fumar225%2FUmar-Portfolio%2Factions
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Factions%2Findex&source=header-repo&source_repo=umar225%2FUmar-Portfolio
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "umar225" [ref=e70] [cursor=pointer]:
+            - /url: /umar225
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "Umar-Portfolio" [ref=e73] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fumar225%2FUmar-Portfolio
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 0" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fumar225%2FUmar-Portfolio
+                - img [ref=e82]
+                - text: Fork
+                - generic "0" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fumar225%2FUmar-Portfolio
+                - img [ref=e88]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e90]: "0"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /umar225/Umar-Portfolio/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e284]:
+      - generic [ref=e287]:
+        - link "Deploy to GitHub Pages" [ref=e290] [cursor=pointer]:
+          - /url: /umar225/Umar-Portfolio/actions/workflows/deploy.yml
+          - img [ref=e291]
+          - generic [ref=e293]: Deploy to GitHub Pages
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - img "failed:" [ref=e299]
+            - 'heading "Update base URL in Vite configuration #2" [level=1] [ref=e301]':
+              - generic [ref=e302]: "Update base URL in Vite configuration #2"
+          - link "Sign in to view logs" [ref=e305] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fumar225%2FUmar-Portfolio%2Factions%2Fruns%2F29895690934
+      - generic [ref=e306]:
+        - navigation "Workflow run" [ref=e312]:
+          - list [ref=e313]:
+            - listitem [ref=e314]:
+              - link "Summary" [ref=e315] [cursor=pointer]:
+                - /url: /umar225/Umar-Portfolio/actions/runs/29895690934
+                - generic:
+                  - img
+                - generic [ref=e317]: Summary
+            - generic [ref=e318]:
+              - heading "All jobs" [level=4] [ref=e319]
+              - button "Filter by job status" [ref=e320] [cursor=pointer]:
+                - img [ref=e321]
+            - listitem [ref=e323]
+            - listitem [ref=e324]:
+              - list [ref=e325]:
+                - listitem [ref=e326]:
+                  - link "build" [ref=e327] [cursor=pointer]:
+                    - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/job/88845906042
+                    - generic:
+                      - img
+                    - generic [ref=e329]: build
+                - listitem [ref=e330]:
+                  - link "deploy" [ref=e331] [cursor=pointer]:
+                    - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/job/88845956333
+                    - generic:
+                      - img
+                    - generic [ref=e333]: deploy
+            - listitem [ref=e334]
+            - listitem [ref=e335]:
+              - heading "Run details" [level=3] [ref=e337]
+              - list "Run details" [ref=e338]:
+                - listitem [ref=e339]:
+                  - link "Usage" [ref=e340] [cursor=pointer]:
+                    - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/usage
+                    - generic:
+                      - img
+                    - generic [ref=e342]: Usage
+                - listitem [ref=e343]:
+                  - link "Workflow file" [ref=e344] [cursor=pointer]:
+                    - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/workflow
+                    - generic:
+                      - img
+                    - generic [ref=e346]: Workflow file
+        - generic [ref=e348]:
+          - region "Workflow run summary" [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]: Re-run triggered July 22, 2026 06:09now
+                - generic [ref=e353]:
+                  - link "@umar225 umar225" [ref=e354] [cursor=pointer]:
+                    - /url: /umar225
+                    - img "@umar225" [ref=e355]
+                    - text: umar225
+                  - link "933d4c0" [ref=e357] [cursor=pointer]:
+                    - /url: /umar225/Umar-Portfolio/commit/933d4c0b8c881ae41ac1d3a37b872288a3142a8c
+                    - img [ref=e358]
+                    - text: 933d4c0
+                  - link "main" [ref=e360] [cursor=pointer]:
+                    - /url: /umar225/Umar-Portfolio/tree/refs/heads/main
+              - generic [ref=e361]:
+                - generic [ref=e362]: Status
+                - text: Failure
+              - generic [ref=e363]:
+                - generic [ref=e364]: Total duration
+                - link "20s" [ref=e365] [cursor=pointer]:
+                  - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/usage
+              - generic [ref=e366]:
+                - generic [ref=e367]: Artifacts
+                - text: –
+          - region "Workflow run graph" [ref=e368]:
+            - generic [ref=e370]:
+              - generic [ref=e372]:
+                - heading "deploy.yml" [level=2] [ref=e373]:
+                  - link "deploy.yml" [ref=e374] [cursor=pointer]:
+                    - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/workflow
+                - generic [ref=e375]: "on: push"
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - img
+                  - img
+                  - 'link "failed: build 16s" [ref=e382] [cursor=pointer]':
+                    - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/job/88845906042
+                    - generic [ref=e384]:
+                      - img "failed:" [ref=e386]
+                      - generic [ref=e389]: build
+                      - generic [ref=e390]: 16s
+                  - 'link "skipped: deploy 0s" [ref=e395] [cursor=pointer]':
+                    - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/job/88845956333
+                    - generic [ref=e397]:
+                      - img "skipped:" [ref=e399]
+                      - generic [ref=e402]: deploy
+                      - generic [ref=e403]: 0s
+                - generic [ref=e405]:
+                  - paragraph [ref=e406]: Oh hello! Nice to see you.
+                  - paragraph [ref=e407]:
+                    - text: Made with ❤️ by
+                    - link [ref=e408] [cursor=pointer]:
+                      - /url: https://actions.github.io/humans.txt
+                      - text: humans.txt
+              - generic [ref=e409]:
+                - button "Fit to window" [disabled] [ref=e410]:
+                  - img
+                - generic [ref=e411]:
+                  - button "Zoom out" [disabled] [ref=e413]:
+                    - img
+                  - button "Zoom in" [ref=e415] [cursor=pointer]:
+                    - img
+          - region "Annotations" [ref=e416]:
+            - generic [ref=e417]:
+              - generic [ref=e419]:
+                - heading "Annotations" [level=2] [ref=e420]
+                - generic [ref=e421]: 1 error and 1 warning
+              - table [ref=e422]:
+                - rowgroup [ref=e423]:
+                  - row "build Process completed with exit code 1." [ref=e424]:
+                    - cell "build Process completed with exit code 1." [ref=e425]:
+                      - generic [ref=e426]:
+                        - img [ref=e428]
+                        - generic [ref=e430]:
+                          - link "build" [ref=e431] [cursor=pointer]:
+                            - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/job/88845906042#step:5:17
+                            - strong [ref=e432]: build
+                          - generic [ref=e435]: Process completed with exit code 1.
+                  - 'row "build Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/ Show more" [ref=e436]':
+                    - 'cell "build Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/ Show more" [ref=e437]':
+                      - generic [ref=e438]:
+                        - img [ref=e440]
+                        - generic [ref=e442]:
+                          - link "build" [ref=e443] [cursor=pointer]:
+                            - /url: /umar225/Umar-Portfolio/actions/runs/29895690934/job/88845906042#step:13:2
+                            - strong [ref=e444]: build
+                          - generic [ref=e445]:
+                            - generic [ref=e447]:
+                              - text: "Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see:"
+                              - link "https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/" [ref=e448] [cursor=pointer]:
+                                - /url: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+                            - button "Show more" [ref=e449] [cursor=pointer]

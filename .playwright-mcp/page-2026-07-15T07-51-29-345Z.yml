@@ -1,0 +1,321 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "About" [ref=e5] [cursor=pointer]:
+          - /url: "#about"
+          - generic [ref=e6]: About
+        - link "Projects" [ref=e7] [cursor=pointer]:
+          - /url: "#projects"
+          - generic [ref=e8]: Projects
+        - link "Testimonials" [ref=e9] [cursor=pointer]:
+          - /url: "#testimonials"
+          - generic [ref=e10]: Testimonials
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: "#contact"
+          - generic [ref=e12]: Contact
+      - generic [ref=e13]:
+        - generic:
+          - img
+          - img
+          - img
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Dynamic Web Magic with Next.js
+          - generic [ref=e21]:
+            - generic [ref=e22]: Hi!
+            - generic [ref=e23]: I'm
+            - generic [ref=e24]: Awais,
+            - generic [ref=e25]: a
+            - generic [ref=e26]: Frontend
+            - generic [ref=e27]: Developer
+            - generic [ref=e28]: based
+            - generic [ref=e29]: in
+            - generic [ref=e30]: Pakistan.
+          - paragraph [ref=e31]: Join forces with me and let's bring something extraordinary to life!
+          - link "Show my work" [ref=e32] [cursor=pointer]:
+            - /url: "#about"
+            - button "Show my work" [ref=e33]:
+              - generic [ref=e35]:
+                - text: Show my work
+                - img [ref=e36]
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - img "/bb2.jpg" [ref=e43]
+          - generic [ref=e45]: I prioritize client collaboration, fostering open communication
+        - generic [ref=e50]: I'm very flexible with time zone communications
+        - generic [ref=e60]:
+          - generic [ref=e61]: I constantly try to improve
+          - generic [ref=e62]: My tech stack
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: ReactJS
+              - generic [ref=e66]: NextJS
+              - generic [ref=e67]: MySQL
+            - generic [ref=e69]:
+              - generic [ref=e71]: Javascript
+              - generic [ref=e72]: Typescript
+              - generic [ref=e73]: Git
+        - generic [ref=e75]:
+          - img "/grid.svg" [ref=e77]
+          - img "/b4.svg" [ref=e79]
+          - generic [ref=e81]: Tech enthusiast with a passion for development.
+        - generic [ref=e83]:
+          - img "/b5.svg" [ref=e85]
+          - img "/grid.svg" [ref=e87]
+          - generic [ref=e88]:
+            - generic [ref=e89]: Who me?
+            - generic [ref=e90]: I'm a frontend developer with a passion for creating smooth and intuitive web experiences.
+        - generic [ref=e102]:
+          - generic [ref=e103]: Do you want to start a project together?
+          - generic [ref=e104]:
+            - button "animation" [ref=e106] [cursor=pointer]:
+              - img [ref=e107]
+            - button "Copy my email address" [ref=e108] [cursor=pointer]:
+              - generic [ref=e110]:
+                - img [ref=e111]
+                - text: Copy my email address
+      - generic [ref=e114]:
+        - heading "A small selection of recent projects" [level=1] [ref=e115]
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic:
+              - generic [ref=e119] [cursor=pointer]:
+                - generic [ref=e120]:
+                  - img "bgimg" [ref=e122]
+                  - img "cover" [ref=e123]
+                - heading "GameHub" [level=1] [ref=e124]
+                - paragraph [ref=e125]: A platform that's offering detailed game data, customizable themes, and interactive features like search, filters, and sorting options for an enhanced user experience..
+                - generic [ref=e126]:
+                  - generic [ref=e127]:
+                    - img "icon5" [ref=e129]
+                    - img "icon5" [ref=e131]
+                    - img "icon5" [ref=e133]
+                  - generic [ref=e134]:
+                    - link "Check Live Site" [ref=e135]:
+                      - /url: https://game-hub-five-ruby.vercel.app/
+                    - img [ref=e136]
+              - generic:
+                - generic:
+                  - generic:
+                    - link "https://game-hub-five-ruby.vercel.app/":
+                      - /url: https://game-hub-five-ruby.vercel.app/
+                      - generic: https://game-hub-five-ruby.vercel.app/
+          - generic [ref=e138]:
+            - generic:
+              - generic [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]:
+                  - img "bgimg" [ref=e143]
+                  - img "cover" [ref=e144]
+                - heading "Issue Tracker" [level=1] [ref=e145]
+                - paragraph [ref=e146]: Developed an issue tracking application using Next.js, TypeScript, Radix UI, and MySQL with Prisma, featuring Google login, issue management, and status filtering for streamlined project tracking.
+                - generic [ref=e147]:
+                  - generic [ref=e148]:
+                    - img "icon5" [ref=e150]
+                    - img "icon5" [ref=e152]
+                    - img "icon5" [ref=e154]
+                  - generic [ref=e155]:
+                    - link "Check Live Site" [ref=e156]:
+                      - /url: https://github.com/dev-awais47/issue-tracker
+                    - img [ref=e157]
+              - generic:
+                - generic:
+                  - generic:
+                    - link "https://github.com/dev-awais47/issue-tracker":
+                      - /url: https://github.com/dev-awais47/issue-tracker
+                      - generic: https://github.com/dev-awais47/issue-tracker
+          - generic [ref=e159]:
+            - generic:
+              - generic [ref=e161] [cursor=pointer]:
+                - generic [ref=e162]:
+                  - img "bgimg" [ref=e164]
+                  - img "cover" [ref=e165]
+                - heading "Task Management App" [level=1] [ref=e166]
+                - paragraph [ref=e167]: An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.
+                - generic [ref=e168]:
+                  - generic [ref=e169]:
+                    - img "icon5" [ref=e171]
+                    - img "icon5" [ref=e173]
+                    - img "icon5" [ref=e175]
+                  - generic [ref=e176]:
+                    - link "Check Live Site" [ref=e177]:
+                      - /url: https://github.com/dev-awais47
+                    - img [ref=e178]
+              - generic:
+                - generic:
+                  - generic:
+                    - link "https://github.com/dev-awais47":
+                      - /url: https://github.com/dev-awais47
+                      - generic: https://github.com/dev-awais47
+          - generic [ref=e180]:
+            - generic:
+              - generic [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - img "bgimg" [ref=e185]
+                  - img "cover" [ref=e186]
+                - heading "Portfolio Website" [level=1] [ref=e187]
+                - paragraph [ref=e188]: A personal portfolio website showcasing projects, skills, and contact information.
+                - generic [ref=e189]:
+                  - generic [ref=e190]:
+                    - img "icon5" [ref=e192]
+                    - img "icon5" [ref=e194]
+                    - img "icon5" [ref=e196]
+                  - generic [ref=e197]:
+                    - link "Check Live Site" [ref=e198]:
+                      - /url: https://awais-ijaz.vercel.app/
+                    - img [ref=e199]
+              - generic:
+                - generic:
+                  - generic:
+                    - link "https://awais-ijaz.vercel.app/":
+                      - /url: https://awais-ijaz.vercel.app/
+                      - generic: https://awais-ijaz.vercel.app/
+      - generic [ref=e201]:
+        - heading "Kind words from satisfied clients" [level=1] [ref=e202]
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - blockquote [ref=e208]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e210]:
+                - generic [ref=e211]: James Carter
+                - generic [ref=e212]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e213]:
+            - blockquote [ref=e214]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e216]:
+                - generic [ref=e217]: James Carter
+                - generic [ref=e218]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e219]:
+            - blockquote [ref=e220]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e222]:
+                - generic [ref=e223]: James Carter
+                - generic [ref=e224]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e225]:
+            - blockquote [ref=e226]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e228]:
+                - generic [ref=e229]: James Carter
+                - generic [ref=e230]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e231]:
+            - blockquote [ref=e232]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e234]:
+                - generic [ref=e235]: James Carter
+                - generic [ref=e236]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e237]:
+            - blockquote [ref=e238]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e240]:
+                - generic [ref=e241]: James Carter
+                - generic [ref=e242]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e243]:
+            - blockquote [ref=e244]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e246]:
+                - generic [ref=e247]: James Carter
+                - generic [ref=e248]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e249]:
+            - blockquote [ref=e250]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e252]:
+                - generic [ref=e253]: James Carter
+                - generic [ref=e254]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e255]:
+            - blockquote [ref=e256]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e258]:
+                - generic [ref=e259]: James Carter
+                - generic [ref=e260]: Chief Operating Officer at Streamline Solutions
+          - listitem [ref=e261]:
+            - blockquote [ref=e262]:
+              - text: Working with Awais was an incredible experience. His attention to detail, quick responses, and commitment to excellence were evident from the start. Awais's passion for every aspect of development is truly remarkable. If you're looking to enhance your online presence and take your brand to the next level, Awais is the go-to professional.
+              - generic [ref=e264]:
+                - generic [ref=e265]: James Carter
+                - generic [ref=e266]: Chief Operating Officer at Streamline Solutions
+      - generic [ref=e267]:
+        - heading "My work experience" [level=1] [ref=e268]
+        - generic [ref=e269]:
+          - button "/exp1.svg Frontend Developer Developed advanced frontends with React.js, Next.js, and TypeScript. Leveraged UI libraries like Chakra UI and Ant Design for efficient, responsive designs. Translated Figma designs into user-friendly interfaces and delivered high-performance web applications." [ref=e270] [cursor=pointer]:
+            - img [ref=e272]
+            - generic [ref=e277]:
+              - img "/exp1.svg" [ref=e278]
+              - generic [ref=e279]:
+                - heading "Frontend Developer" [level=1] [ref=e280]
+                - paragraph [ref=e281]: Developed advanced frontends with React.js, Next.js, and TypeScript. Leveraged UI libraries like Chakra UI and Ant Design for efficient, responsive designs. Translated Figma designs into user-friendly interfaces and delivered high-performance web applications.
+          - button "/exp2.svg Mern Stack Developer As a MERN Stack Developer, I create dynamic web applications using MongoDB, Express.js, React.js, and Node.js. I design full-stack solutions with seamless integration, crafting responsive interfaces, managing server-side operations, and handling complex data to deliver high-performance apps." [ref=e282] [cursor=pointer]:
+            - img [ref=e284]
+            - generic [ref=e289]:
+              - img "/exp2.svg" [ref=e290]
+              - generic [ref=e291]:
+                - heading "Mern Stack Developer" [level=1] [ref=e292]
+                - paragraph [ref=e293]: As a MERN Stack Developer, I create dynamic web applications using MongoDB, Express.js, React.js, and Node.js. I design full-stack solutions with seamless integration, crafting responsive interfaces, managing server-side operations, and handling complex data to deliver high-performance apps.
+          - button "/exp3.svg Freelance Web Developer As a freelance web developer, I build custom websites, optimize user experiences, and deliver tailored solutions for clients. I handle everything from front-end design to back-end development, ensuring responsive, high-quality web projects." [ref=e294] [cursor=pointer]:
+            - img [ref=e296]
+            - generic [ref=e301]:
+              - img "/exp3.svg" [ref=e302]
+              - generic [ref=e303]:
+                - heading "Freelance Web Developer" [level=1] [ref=e304]
+                - paragraph [ref=e305]: As a freelance web developer, I build custom websites, optimize user experiences, and deliver tailored solutions for clients. I handle everything from front-end design to back-end development, ensuring responsive, high-quality web projects.
+          - button "/exp4.svg SAP TA Managed the SAP training program, coordinating schedules, communicating with trainees, and handling logistics. Implemented systems to track progress and evaluations, enhancing program effectiveness. Collaborated with coordinators to improve the overall trainee learning experience." [ref=e306] [cursor=pointer]:
+            - img [ref=e308]
+            - generic [ref=e313]:
+              - img "/exp4.svg" [ref=e314]
+              - generic [ref=e315]:
+                - heading "SAP TA" [level=1] [ref=e316]
+                - paragraph [ref=e317]: Managed the SAP training program, coordinating schedules, communicating with trainees, and handling logistics. Implemented systems to track progress and evaluations, enhancing program effectiveness. Collaborated with coordinators to improve the overall trainee learning experience.
+      - generic [ref=e318]:
+        - heading "My approach" [level=1] [ref=e319]
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - img [ref=e322]
+            - img [ref=e324]
+            - img [ref=e326]
+            - img [ref=e328]
+            - generic [ref=e330]:
+              - button "Phase 1" [ref=e333] [cursor=pointer]:
+                - generic [ref=e335]: Phase 1
+              - heading "Planning & Strategy" [level=2] [ref=e336]
+              - paragraph [ref=e337]: We'll work together to define your website's objectives, target audience, and essential features. We'll cover aspects like site layout, navigation flow, and content needs.
+          - generic [ref=e338]:
+            - img [ref=e339]
+            - img [ref=e341]
+            - img [ref=e343]
+            - img [ref=e345]
+            - generic [ref=e347]:
+              - button "Phase 2" [ref=e350] [cursor=pointer]:
+                - generic [ref=e352]: Phase 2
+              - heading "Development & Progress Update" [level=2] [ref=e353]
+              - paragraph [ref=e354]: Once we finalize the plan, I get into the zone and start coding. From rough drafts to refined code, I keep you informed throughout the entire process.
+          - generic [ref=e355]:
+            - img [ref=e356]
+            - img [ref=e358]
+            - img [ref=e360]
+            - img [ref=e362]
+            - generic [ref=e364]:
+              - button "Phase 3" [ref=e367] [cursor=pointer]:
+                - generic [ref=e369]: Phase 3
+              - heading "Development & Launch" [level=2] [ref=e370]
+              - paragraph [ref=e371]: This is where the magic comes to life! Using the approved design, I’ll turn everything into functional code, constructing your website from scratch.
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - heading "Ready to take your digital presence to the next level?" [level=1] [ref=e374]
+          - paragraph [ref=e375]: Reach out to me today and let's discuss how I can help you achieve your goals.
+          - link "Let's get in touch" [ref=e376] [cursor=pointer]:
+            - /url: mailto:muhammadawaisijaz010@gmail.com
+            - button "Let's get in touch" [ref=e377]:
+              - generic [ref=e379]:
+                - text: Let's get in touch
+                - img [ref=e380]
+        - generic [ref=e382]:
+          - paragraph [ref=e383]: Muhammad Awais - Software Engineer
+          - generic [ref=e384]:
+            - link "icons" [ref=e386] [cursor=pointer]:
+              - /url: https://github.com/dev-awais47
+              - img "icons" [ref=e387]
+            - link "icons" [ref=e389] [cursor=pointer]:
+              - /url: https://twitter.com/awais3799
+              - img "icons" [ref=e390]
+            - link "icons" [ref=e392] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/muhammad-awais-ijaz
+              - img "icons" [ref=e393]
+  - alert [ref=e394]

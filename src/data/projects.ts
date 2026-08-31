@@ -1,4 +1,5 @@
 import type { Project } from "../types";
+import mamasPapasImg from "../assets/mamas-papas.png";
 
 export const projects: Project[] = [
   {
@@ -52,7 +53,7 @@ export const projects: Project[] = [
       "Quality assurance for the leading baby products and parenting solutions brand.",
     tags: ["E2E Testing", "Exploratory Testing", "QA"],
     link: "https://mamasandpapas.ae/",
-    image: "/images.png",
+    image: mamasPapasImg,
   },
   {
     title: "Vidivet",
@@ -60,6 +61,7 @@ export const projects: Project[] = [
       "Testing for a veterinary app connecting pet owners with trusted UK vets for reliable advice.",
     tags: ["Test Planning", "E2E Testing", "Healthcare"],
     link: "https://vidivet.com/vets",
-    image: "https://picsum.photos/seed/pet/800/600",
+    image:
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&q=80&w=800&h=600",
   },
 ];

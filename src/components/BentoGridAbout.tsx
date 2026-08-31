@@ -1,6 +1,7 @@
 import { BentoCard } from './BentoCard';
 import { CopyEmailButton } from './CopyEmailButton';
 import { AnimatedSection } from './ui/AnimatedSection';
+import profileImg from '../assets/profile.jpg';
 
 const TECH_STACK = [
   'Playwright',
@@ -29,12 +30,12 @@ export function BentoGridAbout() {
       </AnimatedSection>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {/* Card 1: Bio + Profile Image — spans 2 cols, 2 rows on desktop */}
+        {/* Card 1: Bio + Profile Image — spans 2 cols on desktop */}
         <AnimatedSection delay={0}>
-          <BentoCard colSpan="md:col-span-2" rowSpan="md:row-span-2">
-            <div className="flex flex-col md:flex-row items-center gap-6 h-full">
+          <BentoCard colSpan="md:col-span-2">
+            <div className="flex flex-col md:flex-row items-center gap-6">
               <img
-                src="/IMG-20231226-WA0006.jpg"
+                src={profileImg}
                 alt="Umar Javed profile"
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-2 border-white/20 flex-shrink-0"
                 onError={(e) => {

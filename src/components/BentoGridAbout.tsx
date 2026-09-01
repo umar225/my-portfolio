@@ -29,14 +29,14 @@ export function BentoGridAbout() {
       </AnimatedSection>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {/* Card 1: Bio — spans 2 cols on desktop */}
+        {/* Card 1: Bio */}
         <AnimatedSection delay={0}>
-          <BentoCard colSpan="md:col-span-2">
+          <BentoCard>
             <div className="flex flex-col justify-center h-full">
               <h3 className="text-xl font-semibold text-white mb-3">
                 Umar Javed
               </h3>
-              <p className="text-white/70 text-base leading-relaxed">
+              <p className="text-white/70 text-sm leading-relaxed">
                 SDET with 8+ years of experience designing scalable automation
                 frameworks using Playwright and TypeScript. Passionate about
                 building reliable test infrastructure that empowers teams to
@@ -46,9 +46,9 @@ export function BentoGridAbout() {
           </BentoCard>
         </AnimatedSection>
 
-        {/* Card 2: Collaboration — 1 col */}
+        {/* Card 2: Collaboration */}
         <AnimatedSection delay={0.1}>
-          <BentoCard colSpan="md:col-span-1">
+          <BentoCard>
             <div className="flex flex-col justify-center h-full">
               <h3 className="text-lg font-semibold text-white mb-3">
                 🤝 Collaboration
@@ -62,9 +62,9 @@ export function BentoGridAbout() {
           </BentoCard>
         </AnimatedSection>
 
-        {/* Card 3: Timezone — 1 col */}
+        {/* Card 3: Timezone */}
         <AnimatedSection delay={0.15}>
-          <BentoCard colSpan="md:col-span-1">
+          <BentoCard>
             <div className="flex flex-col justify-center h-full">
               <h3 className="text-lg font-semibold text-white mb-3">
                 🌍 Timezone
@@ -77,9 +77,9 @@ export function BentoGridAbout() {
           </BentoCard>
         </AnimatedSection>
 
-        {/* Card 4: Tech Stack — spans 2 cols */}
+        {/* Card 4: Tech Stack */}
         <AnimatedSection delay={0.2}>
-          <BentoCard colSpan="md:col-span-2">
+          <BentoCard>
             <h3 className="text-lg font-semibold text-white mb-4">
               ⚡ Tech Stack
             </h3>
@@ -96,9 +96,9 @@ export function BentoGridAbout() {
           </BentoCard>
         </AnimatedSection>
 
-        {/* Card 5: Quality Passion — 1 col */}
+        {/* Card 5: Quality First */}
         <AnimatedSection delay={0.25}>
-          <BentoCard colSpan="md:col-span-1">
+          <BentoCard>
             <div className="flex flex-col justify-center h-full">
               <h3 className="text-lg font-semibold text-white mb-3">
                 🎯 Quality First
@@ -111,9 +111,9 @@ export function BentoGridAbout() {
           </BentoCard>
         </AnimatedSection>
 
-        {/* Card 6: Contact CTA — 1 col */}
+        {/* Card 6: Contact CTA */}
         <AnimatedSection delay={0.3}>
-          <BentoCard colSpan="md:col-span-1">
+          <BentoCard>
             <div className="flex flex-col justify-center items-center h-full text-center">
               <h3 className="text-lg font-semibold text-white mb-3">
                 📬 Get In Touch

@@ -26,7 +26,7 @@ export function BentoCard({
   return (
     <motion.div
       className={`
-        rounded-2xl bg-white/5 border border-white/10 p-6 overflow-hidden
+        rounded-2xl bg-white/5 border border-white/10 p-6 overflow-hidden min-h-[200px]
         transition-colors duration-300 hover:border-white/20
         ${colSpan} ${rowSpan} ${className}
       `.trim().replace(/\s+/g, ' ')}
